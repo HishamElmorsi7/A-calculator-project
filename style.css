@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(140, 153, 165, 0.548);
+}
+.layout {
+    width: 400px;
+    height: 500px;
+    margin: 40px auto;
+    background-color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.output {
+    color: rgba(239, 250, 24, 0.534);
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex ;
+    height: 16.667%;
+}
+
+.row1, button:last-child {
+    color: rgba(19, 151, 74, 0.582);
+    font-size: 40px;
+}
+
+button {
+    width: 25%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  rgba(119, 116, 116, 0.041);
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.486);    
+    font-size: smaller;
+}
+
+button:hover {
+    border: 1px solid rgba(255, 0, 0, 0.486);
+    cursor: pointer;
+}
+
+
+.row1 button:first-child {
+    width: 50%;
+}
+
+.row5 button:first-child {
+    width: 75%;
+}
+
+button:active {
+    color: rgba(255, 8, 0, 0.548)
+}
+
+
